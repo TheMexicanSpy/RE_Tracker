@@ -1,0 +1,84 @@
+.title-wrapper {
+    text-align: center;
+}
+
+.resident-evil-title {
+    width: 300px; /* Ajusta el ancho según tu diseño */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0D0D0D;
+}
+
+form {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    padding: 50px 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el formulario horizontalmente */
+    text-align: center;
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 305px;
+    margin-bottom: 35px;
+}
+
+input {
+    color: #FFFFFF;
+    padding: 20px 15px 20px 60px; /* Ajusta el margen izquierdo según sea necesario para dejar espacio para el icono */
+    width: calc(100% - 65px); /* Ajusta el ancho del input para acomodar el icono */
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.input-icon {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.btn {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(140, 43, 231, 1) 25%, rgba(61, 1 , 245, 1) 100%);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background: rgba(153, 47, 252);
+}

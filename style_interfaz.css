@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#inicio {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenido {
+    flex: 1;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.imagen {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px; /* Agregamos un margen superior para bajar la imagen */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Ajustamos el margen inferior para bajar un poco más la imagen */
+}
+
+
+
+#inicio h1 {
+    margin-bottom: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto */
+    background-image: url('images/fondo_Raccon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    background-color: #000; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra sutíl */
+}
+
+header img {
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Color de los enlaces en el encabezado */
+}
+
+/* Estilos para el botón Registrarse */
+header button {
+    background-color: #ff0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Sombra sutíl */
+}
+
+header button:hover {
+    background-color: #cc0000; /* Color de fondo del botón al pasar el cursor */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #fff; /* Color del texto de los títulos */
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Sombra sutíl */
+}
